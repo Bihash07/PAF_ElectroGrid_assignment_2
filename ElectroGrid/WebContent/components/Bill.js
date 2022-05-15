@@ -33,7 +33,7 @@ $(document).on("click", "#btnSave", function()
 		url : "BillAPI",
 		type : t,
 		data : $("#formBill").serialize(),
-		dataType : "text,date",
+		dataType : "text",
 		complete : function(response, status)
 		{
 			onBillSaveComplete(response.responseText, status);

@@ -122,9 +122,9 @@ border-radius:8px;
 <body>
 
 <div class="header">
-  <a href="index.jsp" class="logo"><img src="image/d.jpg" alt="alternatetext">ElectroGrid (EG)</a>
+  <a href="#" class="logo"><img src="image/d.jpg" alt="alternatetext">ElectroGrid (EG)</a>
   <div class="header-right">
-    <a class="active" href="Dashboard.jsp">Home</a>
+    <a class="active" href="index.jsp">Home</a>
     <a href="Unit.jsp">Unit</a>
     <a href="Bill.jsp">Billing</a>
   </div>

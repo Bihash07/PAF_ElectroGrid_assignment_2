@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>ElectroGrid (EG)</title>
+<link href="image/d.jpg" rel ="icon" type= "image/icon">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="Views/bootstrap.min.css">
 <script src="components/jquery-3.2.1.min.js"></script>
@@ -30,7 +31,6 @@ body, html {
 .topleft {
 font-family: "Courier New", Courier, monospace;
   font-size: 32px;
-  
   position: absolute;
   top: 0;
   left: 16px;
@@ -82,48 +82,24 @@ hr {
   color: white;
 }
 
-/* Orange */
-.warning {
-  border-color: #ff9800;
-  color: orange;
+.logo{
+   color:#000;
 }
-
-.warning:hover {
-  background: #ff9800;
+.logo:hover {
   color: white;
-}
-
-/* Red */
-.danger {
-  border-color: #f44336;
-  color: red;
-}
-
-.danger:hover {
-  background: #f44336;
-  color: white;
-}
-
-/* Gray */
-.default {
-  border-color: #e7e7e7;
-  color: black;
-}
-
-.default:hover {
-  background: #e7e7e7;
 }
 </style>
 </head>
 <body>
 <div class="bgimg">
   <div class="topleft">
-    <p>ElectroGrid (EG)</p>
+    <p><a href="index.jsp" class="logo">ElectroGrid (EG)</a></p>
   </div>
   <div class="middle">
-    <h3>login</h3>
+    <h3>Dash Board</h3><br><br>
     <hr>
-   <a href="login.jsp"><button class="btn danger">Login</button></a>
+    <a href="Unit.jsp"><button class="btn success">Unit</button></a>
+    <a href="Bill.jsp"><button class="btn info">Billing</button></a>
 </div>
 </div>
 

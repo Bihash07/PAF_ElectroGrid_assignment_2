@@ -44,8 +44,7 @@ public class Bill {
 				  		+ "<th>Reading</th><th>Bill Amount</th>"
 				  		+"<th>Update</th><th>Delete</th>";
 				  
-				  String query = "SELECT * FROM bills";
-//				  String query = "SELECT  b.billID,b.uname,b.distID,b.date,b.reading,(b.reading * u.unitp)total FROM bills b ,units u WHERE b.distID=u.distID ";
+				  String query = "SELECT  b.billID,b.uname,b.distID,b.date,b.reading,(b.reading * u.unitp)total FROM bills b ,units u WHERE b.distID=u.distID ";
 				  Statement stmt = con.createStatement();
 				  ResultSet rs = stmt.executeQuery(query);
 			
@@ -109,8 +108,7 @@ public class Bill {
 			preparedStmt.setString(3, distID);
 			preparedStmt.setString(4, date);
 			preparedStmt.setDouble(5, Double.parseDouble(reading));
-	
-	
+
 		  // execute the statement
 			preparedStmt.execute();
 			con.close();

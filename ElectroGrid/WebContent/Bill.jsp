@@ -36,7 +36,7 @@
 					
 					<br>
 					 Date: <br>
-					 <input id="date" name="date" type="date" >  <br>
+					 <input id="date" name="date" type="text" >  <br>
 					 
 					 <br>
 					 Reading: <br>
